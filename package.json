@@ -1,10 +1,10 @@
 {
     "name": "music-bot",
     "main": "main.js",
-    "author": "ZerioDev",
-    "version": "6.0.0",
-    "repository": "https://github.com/ZerioDev/Music-bot.git",
-    "description": "A complete code to download for a cool Discord music bot.",
+    "author": "Troid",
+    "version": "1.0.0",
+    "repository": "https://github.com/Tejoshmoy/DxD-Music",
+    "description": "Want a cool discord music bot? Look no further; everything you'd need to make one is here.",
     "scripts": {
         "start": "node main.js"
     },
