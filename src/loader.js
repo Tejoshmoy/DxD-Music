@@ -18,7 +18,6 @@ for (const file of events) {
 console.log(`Loading commands...`);
 
 readdirSync('./commands/').forEach(dirs => {
-    console.log("=================>"+(dirs == '.DS_store'));
     if (dirs != '.DS_store') {
         const commands = readdirSync(`./commands/${dirs}`).filter(files => files.endsWith('.js'));
 
