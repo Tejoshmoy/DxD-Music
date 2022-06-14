@@ -3,6 +3,7 @@ const { QueryType } = require('discord-player');
 
 module.exports = {
     name: 'search',
+    aliases: ['sr'],
     utilisation: '{prefix}search [song name]',
     voiceChannel: true,
 

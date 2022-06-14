@@ -4,7 +4,7 @@ module.exports = {
     app: {
         px: '.',
         token: process.env.TOKEN,
-        playing: 'Troid UwU (Prefix: ".")'
+        playing: 'Troid UwU (Prefix: " . ")'
     },
 
     opt: {
@@ -13,8 +13,8 @@ module.exports = {
             roleName: 'DJ',
             commands: ['back', 'clear', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume']
         },
-        maxVol: 100,
-        loopMessage: false,
+        maxVol: 500,
+        loopMessage: true,
         discordPlayer: {
             ytdlOptions: {
                 quality: 'highestaudio',
